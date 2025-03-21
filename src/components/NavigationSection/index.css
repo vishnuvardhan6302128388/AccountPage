@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+}
+.nav-container {
+  width: 40vw;
+}
+.path {
+  font-size: 20px;
+}
+.path:hover {
+  color: blue;
+}
