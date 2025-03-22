@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: flex-start;
   width: 70%;
-  padding: 20px;
+  padding: 10px;
+  animation: account 1s 1 forwards;
 }
 .head {
   font-size: 30px;
@@ -44,4 +45,31 @@
   border-radius: 10px;
   background-color: black;
   color: white;
+}
+
+@keyframes account {
+  from {
+    transform: translateX(1100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+.inputEl:focus {
+  background-color: lightgray;
+}
+
+@media (max-witdh: 576px) {
+  .head {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 16px;
+  }
+  .info {
+    font-size: 16px;
+  }
 }
