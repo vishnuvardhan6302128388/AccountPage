@@ -9,6 +9,7 @@
   background-size: cover;
   padding: 20px;
   width: 100%;
+  animation: home 1.5s 1 forwards;
 }
 .main-head {
   font-size: 35px;
@@ -22,4 +23,23 @@
 .hr1 {
   width: 100%;
   color: gray;
+}
+
+@keyframes home {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 576px) {
+  .description {
+    font-size: 18px;
+    font-family: 'Roboto';
+  }
+  .main-head {
+    font-size: 30px;
+  }
 }
