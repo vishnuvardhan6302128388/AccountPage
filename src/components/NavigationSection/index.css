@@ -2,11 +2,24 @@
   text-decoration: none;
 }
 .nav-container {
-  width: 40vw;
+  width: 20vw;
+  padding: 7px;
+  animation: nav 1s 1 forwards;
 }
 .path {
   font-size: 20px;
+  padding: 7px;
 }
 .path:hover {
-  color: blue;
+  color: rgb(228, 19, 201);
+  background-color: antiquewhite;
+}
+
+@keyframes nav {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
