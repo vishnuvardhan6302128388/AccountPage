@@ -27,6 +27,7 @@
   font-size: 18px;
   font-family: 'Roboto';
   font-weight: bold;
+  padding-bottom: 10px;
 }
 .info {
   font-size: 18px;
@@ -34,11 +35,22 @@
   color: gray;
 }
 .inputEl {
-  width: 200px;
-  height: 30px;
+  width: 400px;
+  height: 40px;
   border-radius: 7px;
   padding: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
 }
+.inputEl1 {
+  width: 500px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
 .updateButton {
   width: 130px;
   height: 30px;
@@ -59,7 +71,7 @@
   background-color: lightgray;
 }
 
-@media (max-witdh: 576px) {
+@media (max-width: 576px) {
   .head {
     font-size: 25px;
   }
@@ -71,5 +83,18 @@
   }
   .info {
     font-size: 16px;
+  }
+  .inputEl1 {
+    width: 280px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Roboto';
+  }
+  .inputEl {
+    width: 230px;
+    height: 30px;
+    font-size: 17px;
   }
 }
