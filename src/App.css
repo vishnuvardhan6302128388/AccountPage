@@ -16,3 +16,11 @@ body {
   padding: 20px;
   align-items: flex-start;
 }
+@media (max-width: 576px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+}
